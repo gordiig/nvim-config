@@ -1,11 +1,14 @@
 return {
     {
         "mfussenegger/nvim-dap",
+    },
+    {
+        "rcarriga/nvim-dap-ui",
         dependencies = {
-            "rcarriga/nvim-dap-ui",
             "nvim-neotest/nvim-nio",
+            "mfussenegger/nvim-dap",
         },
-        config = function()
+        config = function ()
             local dap = require("dap")
             local dapui = require("dapui")
 
@@ -36,12 +39,9 @@ return {
             vim.keymap.set("n", "<F12>", function()
                 require("dap").step_out()
             end)
-            vim.keymap.set("n", "<leader>b", function()
+            vim.keymap.set("n", "<leader>db", function()
                 require("dap").toggle_breakpoint()
             end)
-            vim.keymap.set("n", "<leader>B", function()
-                require("dap").set_breakpoint()
-            end)
-        end,
+        end
     },
 }

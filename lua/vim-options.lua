@@ -6,3 +6,4 @@ vim.g.mapleader = " "
 -- vim.cmd("set relativenumber")
 vim.cmd("set number")
 vim.cmd("set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz")
+vim.cmd("set termguicolors")

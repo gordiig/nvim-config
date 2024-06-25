@@ -17,8 +17,8 @@ return {
                     "clangd",
                     -- C#,
                     -- 'csharp_ls',
-                    "omnisharp_mono",
-                    "omnisharp",
+                    -- "omnisharp_mono",
+                    -- "omnisharp",
                     -- CMake
                     "cmake",
                     "neocmake",
@@ -30,8 +30,8 @@ return {
                     -- Docker
                     "dockerls",
                     -- Go
-                    "golangci_lint_ls",
-                    "gopls",
+                    -- "golangci_lint_ls",
+                    -- "gopls",
                     -- HTML/HTMX
                     "html",
                     "htmx",
@@ -41,7 +41,7 @@ return {
                     "jsonls",
                     "biome",
                     -- Java
-                    "jdtls",
+                    -- "jdtls",
                     -- 'java_language_server',
                     -- JS
                     "quick_lint_js",
@@ -50,47 +50,47 @@ return {
                     -- Jinja
                     "jinja_lsp",
                     -- LaTeX
-                    "ltex",
-                    "texlab",
+                    -- "ltex",
+                    -- "texlab",
                     -- Lua
                     "lua_ls",
                     -- Markdown
                     "markdown_oxide",
-                    "marksman",
-                    "prosemd_lsp",
-                    "remark_ls",
-                    "vale_ls",
-                    "zk",
+                    -- "marksman",
+                    -- "prosemd_lsp",
+                    -- "remark_ls",
+                    -- "vale_ls",
+                    -- "zk",
                     -- Nginx
                     -- 'nginx_language_server',
                     -- Python
-                    "jedi_language_server",
-                    "pyre",
+                    -- "jedi_language_server",
+                    -- "pyre",
                     "pyright",
-                    "pylyzer",
-                    "sourcery",
-                    "pylsp",
+                    -- "pylyzer",
+                    -- "sourcery",
+                    -- "pylsp",
                     "ruff",
                     "ruff_lsp",
                     -- SQL
-                    "sqlls",
-                    "sqls",
+                    -- "sqlls",
+                    -- "sqls",
                     -- Sphinx
                     -- 'esbonito',
                     -- TOML
                     "taplo",
                     -- TS
                     "biome",
-                    "tsserver",
-                    "vtsls",
+                    -- "tsserver",
+                    -- "vtsls",
                     -- Vue
-                    "volar",
-                    "vuels",
+                    -- "volar",
+                    -- "vuels",
                     -- XML
                     "lemminx",
                     -- Yaml
-                    "gitlab_ci_ls",
-                    "hydra_lsp",
+                    -- "gitlab_ci_ls",
+                    -- "hydra_lsp",
                     "yamlls",
                 },
             })

@@ -14,6 +14,9 @@ return {
         dependencies = {
             "hrsh7th/cmp-buffer",
             "hrsh7th/cmp-path",
+            "saadparwaiz1/cmp_luasnip",
+            "hrsh7th/cmp-nvim-lsp",
+            "vrslev/cmp-pypi",
         },
         config = function()
             local cmp = require("cmp")
@@ -37,10 +40,11 @@ return {
                     ["<CR>"] = cmp.mapping.confirm({ select = true }),
                 }),
                 sources = cmp.config.sources({
+                    { name = "buffer" },
                     { name = "nvim_lsp" },
                     { name = "luasnip" },
-                    { name = "buffer" },
                     { name = "path" },
+                    { name = "pypi" },
                 }),
             })
         end,
@@ -48,7 +52,7 @@ return {
     {
         "echasnovski/mini.pairs",
         version = "*",
-        config = function ()
+        config = function()
             require("mini.pairs").setup()
         end
     },
